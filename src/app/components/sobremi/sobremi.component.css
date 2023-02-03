@@ -1,0 +1,24 @@
+
+img{
+    border-radius: 20px;
+    width: 400px;
+}
+
+.sobremi-item{
+    margin-bottom: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background: rgb(255, 255, 255, 0.5);
+    padding-bottom: 20px;
+    padding-top: 20px;
+    font-family: 'Comic Neue', cursive;
+    border-radius: 20px;
+}
+
+h1{
+    font-family: amsterdam;
+    padding-bottom: 15px;
+}
+

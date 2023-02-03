@@ -1,0 +1,40 @@
+
+<header class="header">
+    <div class="titulo">
+        <h1>Despierta tu ser</h1>
+    </div>
+<nav class="position-sticky">
+        <ul>
+            <li><a class="" routerLink="/">Home</a></li>
+            <li><a class="" routerLink="/sobremi">Sobre mi</a></li>
+            <li><a class="" routerLink="/servicios">Servicios</a></li>
+            <li><a class="" routerLink="/talleres">Talleres</a></li>
+            <li><a class="" routerLink="/blog">Blog</a></li>
+            <li><a class="" routerLink="/productos">Productos</a></li>
+            <li><a class="" routerLink="/contacto">Contacto</a></li>
+        </ul> 
+</nav>
+</header>
+
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+<script>
+posicionarMenu();
+
+$(window).scroll(function() {    
+    posicionarMenu();
+});
+
+function posicionarMenu() {
+    var altura_del_header = $('.header').outerHeight(true);
+    var altura_del_menu = $('.menu').outerHeight(true);
+
+    if ($(window).scrollTop() >= altura_del_header){
+        $('.menu').addClass('fixed');
+        $('.wrapper').css('margin-top', (altura_del_menu) + 'px');
+    } else {
+        $('.menu').removeClass('fixed');
+        $('.wrapper').css('margin-top', '0');
+    }
+}
+
+</script>

@@ -1,0 +1,12 @@
+.row{
+  margin: 50px 0px;
+}
+
+.btn{
+  background-color: #BE7A6C;
+  border: 0px
+}
+
+.btn:hover{
+  background-color: #f09988;
+}

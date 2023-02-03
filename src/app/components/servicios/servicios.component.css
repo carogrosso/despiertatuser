@@ -1,0 +1,67 @@
+.tarjetas{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  text-align: center ;
+  margin-bottom: 70px;
+}
+
+.card{
+  box-shadow: 0px 2px 15px rgb(0 0 0 / 15%);
+  border-radius: 10px;  
+  transition: all ease-in-out 0.3s;
+}
+
+ul{
+  list-style: none;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+}
+
+.banner{  
+  background: url(../../../assets/img/paisaje.jpg) center no-repeat;
+  height: 50vh;
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.texto-banner{
+  padding-top: 100px;
+  color: rgb(255, 255, 255);
+}
+
+.texto-banner h1, .texto-banner h5{
+  font-family: 'Comic Neue', cursive;
+}
+
+.servicios img{
+  width: 400px;
+}
+
+.servicios-item{
+  margin-bottom: 70px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.servicio{
+  background: rgb(255, 255, 255, 0.5);
+  padding: 20px;
+  border-radius: 20px;
+}
+
+.servicio h1, .servicio p{
+  font-family: 'Comic Neue', cursive;
+}
+
+.btn{
+  background-color: #BE7A6C;
+  border: 0px
+}
+
+.btn:hover{
+  background-color: #f09988;
+}

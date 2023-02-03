@@ -1,0 +1,50 @@
+nav{
+    background-color: #BE7A6C;
+}
+
+.titulo{
+    background: rgb(255, 255, 255, 0.5);
+
+}
+
+
+h1{
+    text-align: center;
+    padding: 50px;
+    font-family: amsterdam;
+    font-size: 50px;
+    text-shadow: 5px 5px #BE7A6C;
+}
+
+ul{
+    list-style: none;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 5px;
+    font-family: 'Comic Neue', cursive;
+}
+
+li{
+    padding: 10px;
+}
+
+a{
+    text-decoration: none;
+    padding: 10px;
+    color: black;
+    border-radius: 5px;
+}
+
+a:hover{
+    background-color: #AAB7BD;
+    color: #000;
+    transition: 0.5s;
+    text-shadow: 2px 3px rgb(230, 227, 227);
+}
+
+.fixed{
+    position:fixed; 
+    top:0
+}

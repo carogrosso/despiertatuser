@@ -1,0 +1,22 @@
+footer{
+    background-color: #5c2216;
+}
+
+ul{
+    list-style: none;
+    align-items: center;
+    text-align: left;
+}
+
+a{
+    color: #576566;
+}
+
+/* input{
+    background-color: #BE7A6C !important;
+
+}
+
+input:hover{
+    background-color: #f09988 !important;
+} */
